@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView" type="id"/>
+    <item name="main_timer_text" type="id"/>
+    <item name="left_arrow" type="id"/>
+    <item name="right_arrow" type="id"/>
+    <item name="down_arrow" type="id"/>
+    <item name="rotate_left" type="id"/>
+    <item name="rotate_right" type="id"/>
+    <item name="hold" type="id"/>
+    <item name="drop" type="id"/>
+</resources>

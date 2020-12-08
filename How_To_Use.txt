@@ -1,0 +1,62 @@
+**Can also unzip Assignment3_Tetris.zip
+
+Keyboard controls:
+*Note that the control will perform 1 unit of the move
+**If the Key is held, then the action performed will correspond
+	to however long the key is held
+
+Key				Control
+____________________________	__________________
+Left Directional Arrow Key 	- Move Left
+Right Directional Arrow Key 	- Move Right
+Down Directional Arrow Key 	- Move Down
+Q 				- Rotate Left
+E 				- Rotate Right
+S				- Drop Down
+F				- Hold/Swap Piece
+
+- 1000 points per row cleared
+- Can clear multiple rows (still 1000 points per row)
+- Holding pieces will only put the current piece into a "bank"
+	where the user can swap that piece in the bank to use
+	at a later time. The first time using this piece allows
+	the user to put it into the bank and take in the next
+	piece. The user can decide to swap the selected piece
+	out or keep on playing per usual.
+
+Deliverables:
+- Can use touchscreen buttons as control (encoded by onClick)
+- Can use keyboard as control
+
+
+All of the images used:
+- left_arrow.jpg
+- right_arrow.jpg
+- down_arrow.jpg
+- rotate_right.jpg
+- rotate_left.png
+- hold.jpeg
+- drop.jpeg
+
+All of the .java files used:
+- Tetris.java
+- MainActivity.java
+- CustomView.java
+- GridView.java
+
+FILE LOCATIONS:
+
+File						Location
+___________________________________		______________________________________________
+- All of the images used will be in		java>res>drawable 	folder
+- activity_main.xml				java>res>layout 	folder
+- ids.xml					java>res>values		folder
+- attrs.xml					java>res>values		folder
+- colors.xml					java>res>values		folder
+- dimens.xml					java>res>values		folder
+- strings.xml					java>res>values		folder
+- styles.xml					java>res>values		folder
+- Tetris.java					java>com.example.assignment3_tetris
+- MainActivity.java				java>com.example.assignment3_tetris
+- GridView.java				java>com.example.assignment3_tetris>views
+- CustomView.java				java>com.example.assignment3_tetris>views
